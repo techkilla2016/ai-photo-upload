@@ -63,7 +63,6 @@ const Home = () => {
         }
     }
 
-
     const handleSelect = (pyload) => {
         setSelect(pyload)
     }

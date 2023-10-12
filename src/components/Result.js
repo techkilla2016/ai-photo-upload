@@ -76,7 +76,7 @@ const Result = ({ result, setResult }) => {
                                 <button className='btn btn-warning wt-border start-btn' onClick={() => setResult('')}>Re-generate</button>
                             </div>
                             <div className='my-2'>
-                                <button onClick={handleQrCode} className='btn wt-border btn-warning start-btn'>Geberate QR</button>
+                                <button onClick={handleQrCode} className='btn wt-border btn-warning start-btn'>Generate QR</button>
                             </div>
                             <div className='my-2'>
                                 <a href={result} download={`${small_id}`} target="_blank" rel="noopener noreferrer" className='btn wt-border btn-warning start-btn'>Save</a>
